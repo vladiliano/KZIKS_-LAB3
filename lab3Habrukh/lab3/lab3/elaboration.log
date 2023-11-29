@@ -1,0 +1,56 @@
+Active-HDL 13.0.376.8320 2023-11-29 18:21:00
+
+Elaboration top modules:
+Architecture                  hw_simple_des_fsm_tb_arch(hw_simple_des_fsm_tb)
+
+
+--------------------------------------------------------------------------------------------------------------------
+Entity               | Architecture              | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------------------------
+hw_simple_des_fsm_tb | hw_simple_des_fsm_tb_arch | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+hw_simple_des_fsm    | hw_simple_des_fsm         | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+init_perm            | init_perm_arch            | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+perm_choice1         | perm_choice1_arch         | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+key_mux              | key_mux_arch              | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rotate_rk            | rotate_rk_arch            | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+perm_choice2         | perm_choice2_arch         | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rk_ram               | rk_ram_arch               | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+sdes_fsm             | sdes_fsm_arch             | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rk_reg               | rk_reg_arch               | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+state_mux            | state_mux_arch            | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+state_reg            | state_reg_arch            | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+round_func           | round_func_arch           | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+xor_4                | xor_4_arch                | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+output_mux           | output_mux_arch           | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+init_perm_inv        | init_perm_inv_arch        | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rf_expand            | rf_expand_arch            | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rf_xor_8             | rf_xor_8_arch             | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rf_subst_1           | rf_subst_1_arch           | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rf_subst_2           | rf_subst_2_arch           | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+rf_permute           | rf_permute_arch           | lab3    |      | 13.0.376.8320 (Windows64) | -O3
+--------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+VHDL Package                                     | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------------------------
+standard                                         | std     |      |                           | <unavailable>
+TEXTIO                                           | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                                   | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                                  | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED                                 | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                               | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+--------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------
+Library                                          | Comment
+--------------------------------------------------------------------------------------------------------------------
+ieee                                             | Standard IEEE packages library
+lab3                                             | None
+std                                              | Standard VHDL library
+--------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r hw_simple_des_fsm_tb
+
+
+The performance of simulation is reduced. Version Student Edition

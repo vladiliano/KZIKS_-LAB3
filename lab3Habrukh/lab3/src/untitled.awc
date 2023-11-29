@@ -1,0 +1,55 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="0897988f91d6ec646765f0d2d9000200">untitled.asdb</database>
+    </databases>
+    <gridshown/>
+    <signallists>
+        <signallist id="0">
+        <signal>/hw_simple_des_fsm_tb/gclk</signal>
+        <signal>/hw_simple_des_fsm_tb/grst</signal>
+        <signal>/hw_simple_des_fsm_tb/input_msg</signal>
+        <signal>/hw_simple_des_fsm_tb/cipher_mode</signal>
+        <signal>/hw_simple_des_fsm_tb/cipher_start</signal>
+        <signal>/hw_simple_des_fsm_tb/cipher_key</signal>
+        <signal>/hw_simple_des_fsm_tb/load_new_key</signal>
+        <signal>/hw_simple_des_fsm_tb/output_msg</signal>
+        <signal>/hw_simple_des_fsm_tb/ciph_finish</signal>
+        <signal>/hw_simple_des_fsm_tb/key_ready</signal>
+        <signal>/hw_simple_des_fsm_tb/UUT/U16/fsm_state</signal>
+        <signal>/hw_simple_des_fsm_tb/teststate</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="1153468" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="1154535" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

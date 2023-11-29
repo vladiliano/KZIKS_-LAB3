@@ -1,0 +1,744 @@
+acom -reorder -O3 -e 100 -work lab3 -2002  $dsn/src/hw_simple_des_fsm.bde $dsn/src/hw_simple_des_fsm_tb.vhd $dsn/src/init_perm.vhd $dsn/src/init_perm_inv.vhd $dsn/src/key_mux.vhd $dsn/src/output_mux.vhd $dsn/src/perm_choice1.vhd $dsn/src/perm_choice2.vhd $dsn/src/rf_expand.vhd $dsn/src/rf_permute.vhd $dsn/src/rf_subst_1.vhd $dsn/src/rf_subst_2.vhd $dsn/src/rf_xor_8.vhd $dsn/src/rk_ram.vhd $dsn/src/rk_reg.vhd $dsn/src/rotate_rk.vhd $dsn/src/round_func.vhd $dsn/src/sdes_fsm.vhd $dsn/src/state_mux.vhd $dsn/src/state_reg.vhd $dsn/src/xor_4.vhd
+# DRC: Checking file "C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm.bde".
+# DRC: Warning: hw_simple_des_fsm.bde - 0 error(s), 16 warning(s)
+# DRC: DRC process completed in 2 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:\my_designs\lab3Habrukh\lab3\compile\hw_simple_des_fsm.vhd from C:\my_designs\lab3Habrukh\lab3\src\hw_simple_des_fsm.bde ...
+# Generation successful
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Entity "hw_simple_des_fsm"
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd
+# Compile Entity "hw_simple_des_fsm_tb"
+# Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm.vhd
+# Compile Entity "init_perm"
+# Compile Architecture "init_perm_arch" of Entity "init_perm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm_inv.vhd
+# Compile Entity "init_perm_inv"
+# Compile Architecture "init_perm_inv_arch" of Entity "init_perm_inv"
+# File: C:/my_designs/lab3Habrukh/lab3/src/key_mux.vhd
+# Compile Entity "key_mux"
+# Compile Architecture "key_mux_arch" of Entity "key_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/output_mux.vhd
+# Compile Entity "output_mux"
+# Compile Architecture "output_mux_arch" of Entity "output_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice1.vhd
+# Compile Entity "perm_choice1"
+# Compile Architecture "perm_choice1_arch" of Entity "perm_choice1"
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice2.vhd
+# Compile Entity "perm_choice2"
+# Compile Architecture "perm_choice2_arch" of Entity "perm_choice2"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_expand.vhd
+# Compile Entity "rf_expand"
+# Compile Architecture "rf_expand_arch" of Entity "rf_expand"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_permute.vhd
+# Compile Entity "rf_permute"
+# Compile Architecture "rf_permute_arch" of Entity "rf_permute"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_1.vhd
+# Compile Entity "rf_subst_1"
+# Compile Architecture "rf_subst_1_arch" of Entity "rf_subst_1"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_2.vhd
+# Compile Entity "rf_subst_2"
+# Compile Architecture "rf_subst_2_arch" of Entity "rf_subst_2"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_xor_8.vhd
+# Compile Entity "rf_xor_8"
+# Compile Architecture "rf_xor_8_arch" of Entity "rf_xor_8"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_ram.vhd
+# Compile Entity "rk_ram"
+# Compile Architecture "rk_ram_arch" of Entity "rk_ram"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_reg.vhd
+# Compile Entity "rk_reg"
+# Compile Architecture "rk_reg_arch" of Entity "rk_reg"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rotate_rk.vhd
+# Compile Entity "rotate_rk"
+# Compile Architecture "rotate_rk_arch" of Entity "rotate_rk"
+# File: C:/my_designs/lab3Habrukh/lab3/src/round_func.vhd
+# Compile Entity "round_func"
+# Compile Architecture "round_func_arch" of Entity "round_func"
+# File: C:/my_designs/lab3Habrukh/lab3/src/sdes_fsm.vhd
+# Compile Entity "sdes_fsm"
+# Compile Architecture "sdes_fsm_arch" of Entity "sdes_fsm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_reg.vhd
+# Compile Entity "state_reg"
+# Compile Architecture "state_reg_arch" of Entity "state_reg"
+# File: C:/my_designs/lab3Habrukh/lab3/src/xor_4.vhd
+# Compile Entity "xor_4"
+# Compile Architecture "xor_4_arch" of Entity "xor_4"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => hw_simple_des_fsm_tb
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom -O3 -e 100 -work lab3 -2002  $dsn/src/perm_choice2.vhd $dsn/src/rotate_rk.vhd $dsn/src/sdes_fsm.vhd $dsn/src/state_reg.vhd $dsn/src/xor_4.vhd $dsn/src/state_mux.vhd $dsn/src/rf_subst_2.vhd $dsn/src/rk_ram.vhd $dsn/src/rk_reg.vhd $dsn/src/rf_xor_8.vhd $dsn/src/rf_permute.vhd $dsn/src/rf_subst_1.vhd $dsn/src/rf_expand.vhd $dsn/src/init_perm_inv.vhd $dsn/src/output_mux.vhd $dsn/src/perm_choice1.vhd $dsn/src/key_mux.vhd $dsn/src/init_perm.vhd $dsn/src/round_func.vhd $dsn/src/hw_simple_des_fsm_tb.vhd $dsn/src/hw_simple_des_fsm.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice2.vhd
+# Compile Entity "perm_choice2"
+# Compile Architecture "perm_choice2_arch" of Entity "perm_choice2"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rotate_rk.vhd
+# Compile Entity "rotate_rk"
+# Compile Architecture "rotate_rk_arch" of Entity "rotate_rk"
+# File: C:/my_designs/lab3Habrukh/lab3/src/sdes_fsm.vhd
+# Compile Entity "sdes_fsm"
+# Compile Architecture "sdes_fsm_arch" of Entity "sdes_fsm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_reg.vhd
+# Compile Entity "state_reg"
+# Compile Architecture "state_reg_arch" of Entity "state_reg"
+# File: C:/my_designs/lab3Habrukh/lab3/src/xor_4.vhd
+# Compile Entity "xor_4"
+# Compile Architecture "xor_4_arch" of Entity "xor_4"
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_2.vhd
+# Compile Entity "rf_subst_2"
+# Compile Architecture "rf_subst_2_arch" of Entity "rf_subst_2"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_ram.vhd
+# Compile Entity "rk_ram"
+# Compile Architecture "rk_ram_arch" of Entity "rk_ram"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_reg.vhd
+# Compile Entity "rk_reg"
+# Compile Architecture "rk_reg_arch" of Entity "rk_reg"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_xor_8.vhd
+# Compile Entity "rf_xor_8"
+# Compile Architecture "rf_xor_8_arch" of Entity "rf_xor_8"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_permute.vhd
+# Compile Entity "rf_permute"
+# Compile Architecture "rf_permute_arch" of Entity "rf_permute"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_1.vhd
+# Compile Entity "rf_subst_1"
+# Compile Architecture "rf_subst_1_arch" of Entity "rf_subst_1"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_expand.vhd
+# Compile Entity "rf_expand"
+# Compile Architecture "rf_expand_arch" of Entity "rf_expand"
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm_inv.vhd
+# Compile Entity "init_perm_inv"
+# Compile Architecture "init_perm_inv_arch" of Entity "init_perm_inv"
+# File: C:/my_designs/lab3Habrukh/lab3/src/output_mux.vhd
+# Compile Entity "output_mux"
+# Compile Architecture "output_mux_arch" of Entity "output_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice1.vhd
+# Compile Entity "perm_choice1"
+# Compile Architecture "perm_choice1_arch" of Entity "perm_choice1"
+# File: C:/my_designs/lab3Habrukh/lab3/src/key_mux.vhd
+# Compile Entity "key_mux"
+# Compile Architecture "key_mux_arch" of Entity "key_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm.vhd
+# Compile Entity "init_perm"
+# Compile Architecture "init_perm_arch" of Entity "init_perm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/round_func.vhd
+# Compile Entity "round_func"
+# Compile Architecture "round_func_arch" of Entity "round_func"
+# File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd
+# Compile Entity "hw_simple_des_fsm_tb"
+# Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Entity "hw_simple_des_fsm"
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.8 [s]
+acom -O3 -e 100 -work lab3 -2002  $dsn/src/perm_choice2.vhd $dsn/src/rotate_rk.vhd $dsn/src/sdes_fsm.vhd $dsn/src/state_reg.vhd $dsn/src/xor_4.vhd $dsn/src/state_mux.vhd $dsn/src/rf_subst_2.vhd $dsn/src/rk_ram.vhd $dsn/src/rk_reg.vhd $dsn/src/rf_xor_8.vhd $dsn/src/rf_permute.vhd $dsn/src/rf_subst_1.vhd $dsn/src/rf_expand.vhd $dsn/src/init_perm_inv.vhd $dsn/src/output_mux.vhd $dsn/src/perm_choice1.vhd $dsn/src/key_mux.vhd $dsn/src/init_perm.vhd $dsn/src/round_func.vhd $dsn/src/hw_simple_des_fsm_tb.vhd $dsn/src/hw_simple_des_fsm.bde
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice2.vhd
+# Compile Entity "perm_choice2"
+# Compile Architecture "perm_choice2_arch" of Entity "perm_choice2"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rotate_rk.vhd
+# Compile Entity "rotate_rk"
+# Compile Architecture "rotate_rk_arch" of Entity "rotate_rk"
+# File: C:/my_designs/lab3Habrukh/lab3/src/sdes_fsm.vhd
+# Compile Entity "sdes_fsm"
+# Compile Architecture "sdes_fsm_arch" of Entity "sdes_fsm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_reg.vhd
+# Compile Entity "state_reg"
+# Compile Architecture "state_reg_arch" of Entity "state_reg"
+# File: C:/my_designs/lab3Habrukh/lab3/src/xor_4.vhd
+# Compile Entity "xor_4"
+# Compile Architecture "xor_4_arch" of Entity "xor_4"
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_2.vhd
+# Compile Entity "rf_subst_2"
+# Compile Architecture "rf_subst_2_arch" of Entity "rf_subst_2"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_ram.vhd
+# Compile Entity "rk_ram"
+# Compile Architecture "rk_ram_arch" of Entity "rk_ram"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_reg.vhd
+# Compile Entity "rk_reg"
+# Compile Architecture "rk_reg_arch" of Entity "rk_reg"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_xor_8.vhd
+# Compile Entity "rf_xor_8"
+# Compile Architecture "rf_xor_8_arch" of Entity "rf_xor_8"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_permute.vhd
+# Compile Entity "rf_permute"
+# Compile Architecture "rf_permute_arch" of Entity "rf_permute"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_1.vhd
+# Compile Entity "rf_subst_1"
+# Compile Architecture "rf_subst_1_arch" of Entity "rf_subst_1"
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_expand.vhd
+# Compile Entity "rf_expand"
+# Compile Architecture "rf_expand_arch" of Entity "rf_expand"
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm_inv.vhd
+# Compile Entity "init_perm_inv"
+# Compile Architecture "init_perm_inv_arch" of Entity "init_perm_inv"
+# File: C:/my_designs/lab3Habrukh/lab3/src/output_mux.vhd
+# Compile Entity "output_mux"
+# Compile Architecture "output_mux_arch" of Entity "output_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice1.vhd
+# Compile Entity "perm_choice1"
+# Compile Architecture "perm_choice1_arch" of Entity "perm_choice1"
+# File: C:/my_designs/lab3Habrukh/lab3/src/key_mux.vhd
+# Compile Entity "key_mux"
+# Compile Architecture "key_mux_arch" of Entity "key_mux"
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm.vhd
+# Compile Entity "init_perm"
+# Compile Architecture "init_perm_arch" of Entity "init_perm"
+# File: C:/my_designs/lab3Habrukh/lab3/src/round_func.vhd
+# Compile Entity "round_func"
+# Compile Architecture "round_func_arch" of Entity "round_func"
+# File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd
+# Compile Entity "hw_simple_des_fsm_tb"
+# Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Entity "hw_simple_des_fsm"
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# # simple-DES FSM edition testbench run
+SetActiveLib -work
+# # compile round function files
+comp -include "$dsn\src\rf_expand.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_expand.vhd
+# Compile Entity "rf_expand"
+# Compile Architecture "rf_expand_arch" of Entity "rf_expand"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rf_xor_8.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_xor_8.vhd
+# Compile Entity "rf_xor_8"
+# Compile Architecture "rf_xor_8_arch" of Entity "rf_xor_8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rf_subst_1.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_1.vhd
+# Compile Entity "rf_subst_1"
+# Compile Architecture "rf_subst_1_arch" of Entity "rf_subst_1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\rf_subst_2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_2.vhd
+# Compile Entity "rf_subst_2"
+# Compile Architecture "rf_subst_2_arch" of Entity "rf_subst_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\rf_permute.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_permute.vhd
+# Compile Entity "rf_permute"
+# Compile Architecture "rf_permute_arch" of Entity "rf_permute"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\round_func.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/round_func.vhd
+# Compile Entity "round_func"
+# Compile Architecture "round_func_arch" of Entity "round_func"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# # compile key expansion part
+comp -include "$dsn\src\perm_choice1.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice1.vhd
+# Compile Entity "perm_choice1"
+# Compile Architecture "perm_choice1_arch" of Entity "perm_choice1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\perm_choice2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice2.vhd
+# Compile Entity "perm_choice2"
+# Compile Architecture "perm_choice2_arch" of Entity "perm_choice2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rk_reg.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_reg.vhd
+# Compile Entity "rk_reg"
+# Compile Architecture "rk_reg_arch" of Entity "rk_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\rotate_rk.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rotate_rk.vhd
+# Compile Entity "rotate_rk"
+# Compile Architecture "rotate_rk_arch" of Entity "rotate_rk"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\key_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/key_mux.vhd
+# Compile Entity "key_mux"
+# Compile Architecture "key_mux_arch" of Entity "key_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\rk_ram.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_ram.vhd
+# Compile Entity "rk_ram"
+# Compile Architecture "rk_ram_arch" of Entity "rk_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# # compile main cipher components
+comp -include "$dsn\src\init_perm.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm.vhd
+# Compile Entity "init_perm"
+# Compile Architecture "init_perm_arch" of Entity "init_perm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\init_perm_inv.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm_inv.vhd
+# Compile Entity "init_perm_inv"
+# Compile Architecture "init_perm_inv_arch" of Entity "init_perm_inv"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\xor_4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/xor_4.vhd
+# Compile Entity "xor_4"
+# Compile Architecture "xor_4_arch" of Entity "xor_4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\state_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\state_reg.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_reg.vhd
+# Compile Entity "state_reg"
+# Compile Architecture "state_reg_arch" of Entity "state_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\output_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/output_mux.vhd
+# Compile Entity "output_mux"
+# Compile Architecture "output_mux_arch" of Entity "output_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\sdes_fsm.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/sdes_fsm.vhd
+# Compile Entity "sdes_fsm"
+# Compile Architecture "sdes_fsm_arch" of Entity "sdes_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\hw_simple_des_fsm.bde"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Entity "hw_simple_des_fsm"
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# # compile testbench
+comp -include "$dsn\src\hw_simple_des_fsm_tb.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd
+# Compile Entity "hw_simple_des_fsm_tb"
+# Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# # begin simulation
+asim +access +r hw_simple_des_fsm_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6623 kB (elbread=427 elab2=6055 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location C:\my_designs\lab3Habrukh\lab3\src\wave.asdb
+#  18:17, 29 но€бр€ 2023 г.
+#  Simulation has been initialized
+wave 
+wave -noreg gclk
+wave -noreg grst
+wave -noreg -binary input_msg
+wave -noreg cipher_mode
+wave -noreg cipher_start
+wave -noreg -binary cipher_key
+wave -noreg load_new_key
+wave -noreg -binary output_msg
+wave -noreg ciph_finish
+wave -noreg key_ready
+wave -noreg UUT/U16/fsm_state
+wave -noreg -color 0,150,150 -bold teststate
+run 800 ns
+# VSIM: 12 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/my_designs/lab3Habrukh/lab3/src/wave.asdb'.
+# KERNEL: stopped at time: 800 ns
+endsim
+# VSIM: Simulation has finished.
+# # simple-DES FSM edition testbench run
+SetActiveLib -work
+# # compile round function files
+comp -include "$dsn\src\rf_expand.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_expand.vhd
+# Compile Entity "rf_expand"
+# Compile Architecture "rf_expand_arch" of Entity "rf_expand"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\rf_xor_8.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_xor_8.vhd
+# Compile Entity "rf_xor_8"
+# Compile Architecture "rf_xor_8_arch" of Entity "rf_xor_8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\rf_subst_1.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_1.vhd
+# Compile Entity "rf_subst_1"
+# Compile Architecture "rf_subst_1_arch" of Entity "rf_subst_1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\rf_subst_2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_2.vhd
+# Compile Entity "rf_subst_2"
+# Compile Architecture "rf_subst_2_arch" of Entity "rf_subst_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rf_permute.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_permute.vhd
+# Compile Entity "rf_permute"
+# Compile Architecture "rf_permute_arch" of Entity "rf_permute"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\round_func.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/round_func.vhd
+# Compile Entity "round_func"
+# Compile Architecture "round_func_arch" of Entity "round_func"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# # compile key expansion part
+comp -include "$dsn\src\perm_choice1.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice1.vhd
+# Compile Entity "perm_choice1"
+# Compile Architecture "perm_choice1_arch" of Entity "perm_choice1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\perm_choice2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice2.vhd
+# Compile Entity "perm_choice2"
+# Compile Architecture "perm_choice2_arch" of Entity "perm_choice2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rk_reg.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_reg.vhd
+# Compile Entity "rk_reg"
+# Compile Architecture "rk_reg_arch" of Entity "rk_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\rotate_rk.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rotate_rk.vhd
+# Compile Entity "rotate_rk"
+# Compile Architecture "rotate_rk_arch" of Entity "rotate_rk"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+comp -include "$dsn\src\key_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/key_mux.vhd
+# Compile Entity "key_mux"
+# Compile Architecture "key_mux_arch" of Entity "key_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\rk_ram.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_ram.vhd
+# Compile Entity "rk_ram"
+# Compile Architecture "rk_ram_arch" of Entity "rk_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# # compile main cipher components
+comp -include "$dsn\src\init_perm.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm.vhd
+# Compile Entity "init_perm"
+# Compile Architecture "init_perm_arch" of Entity "init_perm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\init_perm_inv.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm_inv.vhd
+# Compile Entity "init_perm_inv"
+# Compile Architecture "init_perm_inv_arch" of Entity "init_perm_inv"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\xor_4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/xor_4.vhd
+# Compile Entity "xor_4"
+# Compile Architecture "xor_4_arch" of Entity "xor_4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\state_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\state_reg.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_reg.vhd
+# Compile Entity "state_reg"
+# Compile Architecture "state_reg_arch" of Entity "state_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\output_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/output_mux.vhd
+# Compile Entity "output_mux"
+# Compile Architecture "output_mux_arch" of Entity "output_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\sdes_fsm.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/sdes_fsm.vhd
+# Compile Entity "sdes_fsm"
+# Compile Architecture "sdes_fsm_arch" of Entity "sdes_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\hw_simple_des_fsm.bde"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Entity "hw_simple_des_fsm"
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# # compile testbench
+comp -include "$dsn\src\hw_simple_des_fsm_tb.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd
+# Compile Entity "hw_simple_des_fsm_tb"
+# Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# # begin simulation
+asim +access +r hw_simple_des_fsm_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6623 kB (elbread=427 elab2=6055 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location C:\my_designs\lab3Habrukh\lab3\src\wave.asdb
+#  18:19, 29 но€бр€ 2023 г.
+#  Simulation has been initialized
+wave 
+wave -noreg gclk
+wave -noreg grst
+wave -noreg -binary input_msg
+wave -noreg cipher_mode
+wave -noreg cipher_start
+wave -noreg -binary cipher_key
+wave -noreg load_new_key
+wave -noreg -binary output_msg
+wave -noreg ciph_finish
+wave -noreg key_ready
+wave -noreg UUT/U16/fsm_state
+wave -noreg -color 0,150,150 -bold teststate
+run 1200 ns
+# VSIM: 12 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/my_designs/lab3Habrukh/lab3/src/wave.asdb'.
+# KERNEL: stopped at time: 1200 ns
+endsim
+# VSIM: Simulation has finished.
+# # simple-DES FSM edition testbench run
+SetActiveLib -work
+# # compile round function files
+comp -include "$dsn\src\rf_expand.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_expand.vhd
+# Compile Entity "rf_expand"
+# Compile Architecture "rf_expand_arch" of Entity "rf_expand"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rf_xor_8.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_xor_8.vhd
+# Compile Entity "rf_xor_8"
+# Compile Architecture "rf_xor_8_arch" of Entity "rf_xor_8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\rf_subst_1.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_1.vhd
+# Compile Entity "rf_subst_1"
+# Compile Architecture "rf_subst_1_arch" of Entity "rf_subst_1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\rf_subst_2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_subst_2.vhd
+# Compile Entity "rf_subst_2"
+# Compile Architecture "rf_subst_2_arch" of Entity "rf_subst_2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\rf_permute.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rf_permute.vhd
+# Compile Entity "rf_permute"
+# Compile Architecture "rf_permute_arch" of Entity "rf_permute"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\round_func.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/round_func.vhd
+# Compile Entity "round_func"
+# Compile Architecture "round_func_arch" of Entity "round_func"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# # compile key expansion part
+comp -include "$dsn\src\perm_choice1.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice1.vhd
+# Compile Entity "perm_choice1"
+# Compile Architecture "perm_choice1_arch" of Entity "perm_choice1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\perm_choice2.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/perm_choice2.vhd
+# Compile Entity "perm_choice2"
+# Compile Architecture "perm_choice2_arch" of Entity "perm_choice2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\rk_reg.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_reg.vhd
+# Compile Entity "rk_reg"
+# Compile Architecture "rk_reg_arch" of Entity "rk_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\rotate_rk.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rotate_rk.vhd
+# Compile Entity "rotate_rk"
+# Compile Architecture "rotate_rk_arch" of Entity "rotate_rk"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\key_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/key_mux.vhd
+# Compile Entity "key_mux"
+# Compile Architecture "key_mux_arch" of Entity "key_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\rk_ram.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/rk_ram.vhd
+# Compile Entity "rk_ram"
+# Compile Architecture "rk_ram_arch" of Entity "rk_ram"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# # compile main cipher components
+comp -include "$dsn\src\init_perm.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm.vhd
+# Compile Entity "init_perm"
+# Compile Architecture "init_perm_arch" of Entity "init_perm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\init_perm_inv.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/init_perm_inv.vhd
+# Compile Entity "init_perm_inv"
+# Compile Architecture "init_perm_inv_arch" of Entity "init_perm_inv"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\xor_4.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/xor_4.vhd
+# Compile Entity "xor_4"
+# Compile Architecture "xor_4_arch" of Entity "xor_4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\state_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_mux.vhd
+# Compile Entity "state_mux"
+# Compile Architecture "state_mux_arch" of Entity "state_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\state_reg.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/state_reg.vhd
+# Compile Entity "state_reg"
+# Compile Architecture "state_reg_arch" of Entity "state_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\output_mux.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/output_mux.vhd
+# Compile Entity "output_mux"
+# Compile Architecture "output_mux_arch" of Entity "output_mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\sdes_fsm.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/sdes_fsm.vhd
+# Compile Entity "sdes_fsm"
+# Compile Architecture "sdes_fsm_arch" of Entity "sdes_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+comp -include "$dsn\src\hw_simple_des_fsm.bde"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: ./../compile/hw_simple_des_fsm.vhd
+# Compile Entity "hw_simple_des_fsm"
+# Compile Architecture "hw_simple_des_fsm" of Entity "hw_simple_des_fsm"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# # compile testbench
+comp -include "$dsn\src\hw_simple_des_fsm_tb.vhd"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd
+# Compile Entity "hw_simple_des_fsm_tb"
+# Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# # begin simulation
+asim +access +r hw_simple_des_fsm_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6623 kB (elbread=427 elab2=6055 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location C:\my_designs\lab3Habrukh\lab3\src\wave.asdb
+#  18:21, 29 но€бр€ 2023 г.
+#  Simulation has been initialized
+wave 
+wave -noreg gclk
+wave -noreg grst
+wave -noreg -binary input_msg
+wave -noreg cipher_mode
+wave -noreg cipher_start
+wave -noreg -binary cipher_key
+wave -noreg load_new_key
+wave -noreg -binary output_msg
+wave -noreg ciph_finish
+wave -noreg key_ready
+wave -noreg UUT/U16/fsm_state
+wave -noreg -color 0,150,150 -bold teststate
+run 1130 ns
+# VSIM: 12 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/my_designs/lab3Habrukh/lab3/src/wave.asdb'.
+# KERNEL: stopped at time: 1130 ns
+endsim
+# VSIM: Simulation has finished.
+# Waveform file 'untitled.awc' connected to 'C:/my_designs/lab3Habrukh/lab3/src/untitled.asdb'.
+# Adding file C:\my_designs\lab3Habrukh\lab3\src\untitled.asdb ... Done
+# Adding file C:\my_designs\lab3Habrukh\lab3\src\untitled.awc ... Done
+# Adding file C:\my_designs\lab3Habrukh\lab3\src\untitled.awc ... Done

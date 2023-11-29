@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd" 
+MESSAGE "Compile Entity "hw_simple_des_fsm_tb"" 
+MESSAGE "Compile Architecture "hw_simple_des_fsm_tb_arch" of Entity "hw_simple_des_fsm_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

@@ -1,0 +1,1 @@
+-w -erf C:/my_designs/lab3Habrukh/lab3/compile/lab3.erf -d C:/my_designs/lab3Habrukh/lab3/compile -s C:/my_designs/lab3Habrukh/library.cfg -j C:/my_designs/lab3Habrukh/lab3/projlib.cfg -work lab3 -O3 -e 100 -work lab3 -2002 C:/my_designs/lab3Habrukh/lab3/src/hw_simple_des_fsm_tb.vhd 
